@@ -1,0 +1,83 @@
+/* upsale */
+#upsale {
+  width: 1070px;
+  height: 567px;
+  left: 105px;
+  top: 100px;
+}
+
+#phoneHand {
+  position: absolute;
+  width: 510px;
+  height: 366px;
+  left: 105px;
+  top: 964px;
+}
+
+#womanPhone {
+  position: absolute;
+  width: 510px;
+  height: 366px;
+  left: 665px;
+  top: 964px;
+}
+
+#headOne {
+  position: absolute;
+  width: 510px;
+  height: 59px;
+  left: 105px;
+  top: 1386px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  text-align: center;
+  color: #2a0e05;
+}
+
+#paraOne {
+  position: absolute;
+  width: 415px;
+  height: 74px;
+  left: 152px;
+  top: 1457px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #79706e;
+}
+
+#headTwo {
+  position: absolute;
+  width: 510px;
+  height: 59px;
+  left: 665px;
+  top: 1386px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  text-align: center;
+  color: #2a0e05;
+}
+
+#paraTwo {
+  position: absolute;
+  width: 415px;
+  height: 74px;
+  left: 712px;
+  top: 1457px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #79706e;
+}

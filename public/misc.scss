@@ -1,0 +1,30 @@
+/* Misc */
+@import 'variables.scss';
+
+#wrapper {
+    margin: 0 auto;
+  }
+
+  /* CSS reset */
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  height: 3094px;
+  background: #ffffff;
+}

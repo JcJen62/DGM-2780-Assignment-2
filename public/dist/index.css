@@ -1,33 +1,3 @@
-/* CSS reset */
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding: 0;
-  margin: 0;
-}
-
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-main {
-  position: relative;
-  width: 1280px;
-  margin: 0 auto;
-}
-
-body {
-  height: 3094px;
-  background: #ffffff;
-}
-
 /* Navigation */
 nav {
   position: absolute;
@@ -38,12 +8,10 @@ nav {
   height: 29px;
   z-index: 10;
 }
-
 nav ul.mynav {
   display: flex;
   list-style: none;
 }
-
 nav ul.mynav li {
   display: block;
   text-decoration: none;
@@ -51,14 +19,12 @@ nav ul.mynav li {
   height: 29px;
   left: 312px;
   top: 0px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-
   color: #79706e;
 }
 
@@ -95,13 +61,11 @@ nav ul.mynav li {
   height: 107px;
   left: 94px;
   top: 169px;
-
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 50px;
-
   color: #2a0e05;
 }
 
@@ -111,7 +75,6 @@ nav ul.mynav li {
   height: 48px;
   left: 94px;
   top: 429px;
-
   background: #fb7852;
   border-radius: 16px;
   border: none;
@@ -122,18 +85,15 @@ nav ul.mynav li {
   height: 34px;
   left: 94px;
   top: 436px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 50px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -143,13 +103,11 @@ nav ul.mynav li {
   height: 99px;
   left: 94px;
   top: 299px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-
   color: #79706e;
 }
 
@@ -160,6 +118,7 @@ nav ul.mynav li {
   left: 634px;
   top: 94px;
 }
+
 /* midText */
 #midText {
   height: 182px;
@@ -174,13 +133,11 @@ nav ul.mynav li {
   height: 55px;
   left: 190px;
   top: 698px;
-
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 38px;
   line-height: 50px;
-
   text-align: center;
   color: #2a0e05;
 }
@@ -191,15 +148,12 @@ nav ul.mynav li {
   height: 99px;
   left: 275px;
   top: 781px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-
   text-align: center;
-
   color: #79706e;
 }
 
@@ -233,13 +187,11 @@ nav ul.mynav li {
   height: 59px;
   left: 105px;
   top: 1386px;
-
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 38px;
   line-height: 50px;
-
   text-align: center;
   color: #2a0e05;
 }
@@ -250,15 +202,12 @@ nav ul.mynav li {
   height: 74px;
   left: 152px;
   top: 1457px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-
   text-align: center;
-
   color: #79706e;
 }
 
@@ -268,13 +217,11 @@ nav ul.mynav li {
   height: 59px;
   left: 665px;
   top: 1386px;
-
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 38px;
   line-height: 50px;
-
   text-align: center;
   color: #2a0e05;
 }
@@ -285,15 +232,12 @@ nav ul.mynav li {
   height: 74px;
   left: 712px;
   top: 1457px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-
   text-align: center;
-
   color: #79706e;
 }
 
@@ -319,13 +263,11 @@ nav ul.mynav li {
   height: 107px;
   left: 738px;
   top: 1772px;
-
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 50px;
-
   color: #2a0e05;
 }
 
@@ -335,13 +277,11 @@ nav ul.mynav li {
   height: 99px;
   left: 738px;
   top: 1902px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-
   color: #79706e;
 }
 
@@ -351,7 +291,6 @@ nav ul.mynav li {
   height: 48px;
   left: 738px;
   top: 2032px;
-
   border: 3px solid #fb7852;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -363,18 +302,15 @@ nav ul.mynav li {
   height: 34px;
   left: 738px;
   top: 2039px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 50px;
-
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-
   color: #fb7852;
 }
 
@@ -392,13 +328,11 @@ nav ul.mynav li {
   height: 55px;
   left: 190px;
   top: 2321px;
-
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 38px;
   line-height: 50px;
-
   text-align: center;
   color: #2a0e05;
 }
@@ -409,13 +343,11 @@ nav ul.mynav li {
   height: 99px;
   left: 275px;
   top: 2404px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-
   text-align: center;
   color: #79706e;
 }
@@ -435,14 +367,12 @@ nav ul.mynav li {
   width: 450px;
   height: 58px;
   left: 112px;
-  top: 120px; 
-
+  top: 120px;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 42px;
   line-height: 50px;
-
   text-align: center;
   color: white;
 }
@@ -453,13 +383,11 @@ nav ul.mynav li {
   height: 75px;
   left: 154px;
   top: 200px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-
   text-align: center;
   color: #ffffff;
 }
@@ -470,7 +398,6 @@ nav ul.mynav li {
   height: 48px;
   left: 193px;
   top: 300px;
-
   border: 3px solid #ffffff;
   box-sizing: border-box;
   border-radius: 16px;
@@ -482,18 +409,15 @@ nav ul.mynav li {
   height: 40px;
   left: 196px;
   top: 1255px;
-
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -508,4 +432,27 @@ nav ul.mynav li {
 /* Misc */
 #wrapper {
   margin: 0 auto;
+}
+
+/* CSS reset */
+body, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  height: 3094px;
+  background: #ffffff;
 }

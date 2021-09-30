@@ -1,0 +1,37 @@
+/* midText Connect */
+#midTextConnect {
+  width: 899px;
+  height: 182px;
+  left: 190px;
+  top: 2321px;
+}
+
+#midHeadConnect {
+  position: absolute;
+  width: 899px;
+  height: 55px;
+  left: 190px;
+  top: 2321px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  text-align: center;
+  color: #2a0e05;
+}
+
+#midPTextConnect {
+  position: absolute;
+  width: 730px;
+  height: 99px;
+  left: 275px;
+  top: 2404px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #79706e;
+}

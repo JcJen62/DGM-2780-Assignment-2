@@ -1,0 +1,40 @@
+/* midText */
+@import 'variables.scss';
+
+#midText {
+    height: 182px;
+    width: 899px;
+    left: 190px;
+    top: 94px;
+  }
+  
+  #midHead {
+    position: absolute;
+    width: 899px;
+    height: 55px;
+    left: 190px;
+    top: 698px;
+    font-family: $nun-sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    color: $second-color;
+  }
+  
+  #midPText {
+    position: absolute;
+    width: 730px;
+    height: 99px;
+    left: 275px;
+    top: 781px;
+    font-family: $open-sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: $third-color;
+  }
+  

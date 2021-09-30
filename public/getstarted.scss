@@ -1,0 +1,74 @@
+/* Hero 2 or get started */
+@import 'variables.scss';
+
+#getStarted {
+    width: 1175px;
+    height: 464px;
+    left: 0px;
+    top: 1694px;
+  }
+  
+  #compType {
+    position: absolute;
+    width: 646px;
+    height: 464px;
+    left: 0px;
+    top: 1694px;
+  }
+  
+  #headInsight {
+    position: absolute;
+    width: 437px;
+    height: 107px;
+    left: 738px;
+    top: 1772px;
+    font-family: $nun-sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: $second-color;
+  }
+  
+  #startText {
+    position: absolute;
+    width: 437px;
+    height: 99px;
+    left: 738px;
+    top: 1902px;
+    font-family: $open-sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: $third-color;
+  }
+  
+  #startBtn {
+    position: absolute;
+    width: 339px;
+    height: 48px;
+    left: 738px;
+    top: 2032px;
+    border: 3px solid $brand-color;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+  
+  #startBtnText {
+    width: 339px;
+    height: 34px;
+    left: 738px;
+    top: 2039px;
+    font-family: $open-sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: $brand-color;
+  }
