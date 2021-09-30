@@ -1,0 +1,511 @@
+/* CSS reset */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  height: 3094px;
+  background: #ffffff;
+}
+
+/* Navigation */
+nav {
+  position: absolute;
+  justify-content: flex-end;
+  display: flex;
+  top: 34px;
+  width: 100%;
+  height: 29px;
+  z-index: 10;
+}
+
+nav ul.mynav {
+  display: flex;
+  list-style: none;
+}
+
+nav ul.mynav li {
+  display: block;
+  text-decoration: none;
+  width: 104px;
+  height: 29px;
+  left: 312px;
+  top: 0px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #79706e;
+}
+
+.keepOpen {
+  clear: both;
+}
+
+#signUp {
+  color: #3964fa;
+  font-weight: 800;
+  margin-right: 65px;
+}
+
+#logo {
+  position: absolute;
+  width: 232px;
+  height: 46.29px;
+  left: 95px;
+  top: 25.71px;
+}
+
+/* Hero 1 or Demo section */
+#demo {
+  position: absolute;
+  width: 1186px;
+  height: 464px;
+  left: 0px;
+  top: 94px;
+}
+
+#demoHead {
+  position: absolute;
+  width: 437px;
+  height: 107px;
+  left: 94px;
+  top: 169px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 50px;
+
+  color: #2a0e05;
+}
+
+#btnDemo {
+  position: absolute;
+  width: 339px;
+  height: 48px;
+  left: 94px;
+  top: 429px;
+
+  background: #fb7852;
+  border-radius: 16px;
+  border: none;
+}
+
+#btnDemoText {
+  width: 339px;
+  height: 34px;
+  left: 94px;
+  top: 436px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#heroText {
+  position: absolute;
+  width: 437px;
+  height: 99px;
+  left: 94px;
+  top: 299px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #79706e;
+}
+
+#manOnPhone {
+  position: absolute;
+  width: 646px;
+  height: 464px;
+  left: 634px;
+  top: 94px;
+}
+/* midText */
+#midText {
+  height: 182px;
+  width: 899px;
+  left: 190px;
+  top: 94px;
+}
+
+#midHead {
+  position: absolute;
+  width: 899px;
+  height: 55px;
+  left: 190px;
+  top: 698px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+
+  text-align: center;
+  color: #2a0e05;
+}
+
+#midPText {
+  position: absolute;
+  width: 730px;
+  height: 99px;
+  left: 275px;
+  top: 781px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #79706e;
+}
+
+/* upsale */
+#upsale {
+  width: 1070px;
+  height: 567px;
+  left: 105px;
+  top: 100px;
+}
+
+#phoneHand {
+  position: absolute;
+  width: 510px;
+  height: 366px;
+  left: 105px;
+  top: 964px;
+}
+
+#womanPhone {
+  position: absolute;
+  width: 510px;
+  height: 366px;
+  left: 665px;
+  top: 964px;
+}
+
+#headOne {
+  position: absolute;
+  width: 510px;
+  height: 59px;
+  left: 105px;
+  top: 1386px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+
+  text-align: center;
+  color: #2a0e05;
+}
+
+#paraOne {
+  position: absolute;
+  width: 415px;
+  height: 74px;
+  left: 152px;
+  top: 1457px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #79706e;
+}
+
+#headTwo {
+  position: absolute;
+  width: 510px;
+  height: 59px;
+  left: 665px;
+  top: 1386px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+
+  text-align: center;
+  color: #2a0e05;
+}
+
+#paraTwo {
+  position: absolute;
+  width: 415px;
+  height: 74px;
+  left: 712px;
+  top: 1457px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #79706e;
+}
+
+/* Hero 2 or get started */
+#getStarted {
+  width: 1175px;
+  height: 464px;
+  left: 0px;
+  top: 1694px;
+}
+
+#compType {
+  position: absolute;
+  width: 646px;
+  height: 464px;
+  left: 0px;
+  top: 1694px;
+}
+
+#headInsight {
+  position: absolute;
+  width: 437px;
+  height: 107px;
+  left: 738px;
+  top: 1772px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 50px;
+
+  color: #2a0e05;
+}
+
+#startText {
+  position: absolute;
+  width: 437px;
+  height: 99px;
+  left: 738px;
+  top: 1902px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #79706e;
+}
+
+#startBtn {
+  position: absolute;
+  width: 339px;
+  height: 48px;
+  left: 738px;
+  top: 2032px;
+
+  border: 3px solid #fb7852;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+#startBtnText {
+  width: 339px;
+  height: 34px;
+  left: 738px;
+  top: 2039px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #fb7852;
+}
+
+/* midText Connect */
+#midTextConnect {
+  width: 899px;
+  height: 182px;
+  left: 190px;
+  top: 2321px;
+}
+
+#midHeadConnect {
+  position: absolute;
+  width: 899px;
+  height: 55px;
+  left: 190px;
+  top: 2321px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+
+  text-align: center;
+  color: #2a0e05;
+}
+
+#midPTextConnect {
+  position: absolute;
+  width: 730px;
+  height: 99px;
+  left: 275px;
+  top: 2404px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+  color: #79706e;
+}
+
+/* Chat or footer */
+#chat {
+  width: 1280px;
+  height: 490px;
+  left: 0px;
+  top: 2604px;
+  position: absolute;
+  background-color: #fb7852;
+}
+
+#headChat {
+  position: absolute;
+  width: 450px;
+  height: 58px;
+  left: 112px;
+  top: 120px; 
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 50px;
+
+  text-align: center;
+  color: white;
+}
+
+#chatText {
+  position: absolute;
+  width: 366px;
+  height: 75px;
+  left: 154px;
+  top: 200px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+#answersBtn {
+  position: absolute;
+  width: 280px;
+  height: 48px;
+  left: 193px;
+  top: 300px;
+
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #fb7852;
+}
+
+#answersBtnText {
+  width: 273px;
+  height: 40px;
+  left: 196px;
+  top: 1255px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#armsFold {
+  position: absolute;
+  width: 551px;
+  height: 490px;
+  left: 624px;
+  top: 0px;
+}
+
+/* Misc */
+#wrapper {
+  margin: 0 auto;
+}
