@@ -1,5 +1,6 @@
 /* upsale */
 @import 'variables.scss';
+@import 'mixins';
 
 #upsale {
     width: 1070px;
@@ -14,6 +15,7 @@
     height: 366px;
     left: 105px;
     top: 964px;
+    @include images;
   }
   
   #womanPhone {
@@ -22,6 +24,7 @@
     height: 366px;
     left: 665px;
     top: 964px;
+    @include images;
   }
   
   #headOne {

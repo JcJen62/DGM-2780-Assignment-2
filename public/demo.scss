@@ -1,5 +1,6 @@
 /* Hero 1 or Demo section */
 @import 'variables.scss';
+@import 'mixins';
 
 #demo {
     position: absolute;
@@ -32,6 +33,7 @@
     background: $brand-color;
     border-radius: 16px;
     border: none;
+    @include buttons;
   }
   
   #btnDemoText {
@@ -71,4 +73,5 @@
     height: 464px;
     left: 634px;
     top: 94px;
+    @include images;
   }

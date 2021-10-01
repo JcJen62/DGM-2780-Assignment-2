@@ -2,55 +2,54 @@
 @import 'variables.scss';
 
 nav {
-    position: absolute;
-    justify-content: flex-end;
-    display: flex;
-    top: 34px;
-    width: 100%;
-    height: 29px;
-    z-index: 10;
-  
-    ul.mynav {
-      display: flex;
-      list-style: none;
-  
-      li {
-        display: block;
-        text-decoration: none;
-        width: 104px;
-        height: 29px;
-        left: 312px;
-        top: 0px;
-        font-family: $open-sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 22px;
-        text-align: center;
-        color: $third-color;
+  position: absolute;
+  justify-content: flex-end;
+  display: flex;
+  top: 34px;
+  width: 100%;
+  height: 29px;
+  z-index: 10;
 
-        a {
-          text-decoration: none;
-        }
-      }
+  ul.mynav {
+    display: flex;
+    list-style: none;
+
+    li {
+      display: block;
+      text-decoration: none;
+      width: 104px;
+      height: 29px;
+      left: 312px;
+      top: 0px;
+      font-family: $open-sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: $third-color;
     }
   }
-  
-  .keepOpen {
-    clear: both;
-  }
-  
-  #signUp {
-    color: #3964fa;
-    font-weight: 800;
-    margin-right: 65px;
-  }
-  
-  #logo {
-    position: absolute;
-    width: 232px;
-    height: 46.29px;
-    left: 95px;
-    top: 25.71px;
-  }
-  
+}
+
+#link {
+  text-decoration: none;
+}
+
+.keepOpen {
+  clear: both;
+}
+
+#signUp {
+  color: #3964fa;
+  font-weight: 800;
+  margin-right: 65px;
+}
+
+#logo {
+  position: absolute;
+  width: 232px;
+  height: 46.29px;
+  left: 95px;
+  top: 25.71px;
+}

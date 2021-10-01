@@ -28,6 +28,10 @@ nav ul.mynav li {
   color: #79706e;
 }
 
+#link {
+  text-decoration: none;
+}
+
 .keepOpen {
   clear: both;
 }

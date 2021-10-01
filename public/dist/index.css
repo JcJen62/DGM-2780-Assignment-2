@@ -28,6 +28,10 @@ nav ul.mynav li {
   color: #79706e;
 }
 
+#link {
+  text-decoration: none;
+}
+
 .keepOpen {
   clear: both;
 }
@@ -78,6 +82,7 @@ nav ul.mynav li {
   background: #fb7852;
   border-radius: 16px;
   border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 #btnDemoText {
@@ -117,6 +122,9 @@ nav ul.mynav li {
   height: 464px;
   left: 634px;
   top: 94px;
+  border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  box-shadow: 20px 20px #2a0e05;
+  transition: all 0.4s ease;
 }
 
 /* midText */
@@ -171,6 +179,9 @@ nav ul.mynav li {
   height: 366px;
   left: 105px;
   top: 964px;
+  border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  box-shadow: 20px 20px #2a0e05;
+  transition: all 0.4s ease;
 }
 
 #womanPhone {
@@ -179,6 +190,9 @@ nav ul.mynav li {
   height: 366px;
   left: 665px;
   top: 964px;
+  border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  box-shadow: 20px 20px #2a0e05;
+  transition: all 0.4s ease;
 }
 
 #headOne {
@@ -255,6 +269,9 @@ nav ul.mynav li {
   height: 464px;
   left: 0px;
   top: 1694px;
+  border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  box-shadow: 20px 20px #2a0e05;
+  transition: all 0.4s ease;
 }
 
 #headInsight {
@@ -295,6 +312,7 @@ nav ul.mynav li {
   background-color: #ffffff;
   box-sizing: border-box;
   border-radius: 16px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 #startBtnText {
@@ -402,6 +420,7 @@ nav ul.mynav li {
   box-sizing: border-box;
   border-radius: 16px;
   background-color: #fb7852;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 #answersBtnText {
@@ -427,6 +446,9 @@ nav ul.mynav li {
   height: 490px;
   left: 624px;
   top: 0px;
+  border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  box-shadow: 20px 20px #2a0e05;
+  transition: all 0.4s ease;
 }
 
 /* Misc */
@@ -455,4 +477,51 @@ main {
 body {
   height: 3094px;
   background: #ffffff;
+}
+
+#headSign {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+#signUpForm {
+  display: block;
+  margin: 2%;
+}
+
+#mainSection {
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+
+.form__input {
+  font-size: 24px;
+  margin-bottom: 4%;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Open Sans;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: #2a0e05;
+  border: 1px solid #fb7852;
+  background: white;
+}
+
+#btnSign {
+  background: #fb7852;
+  border-radius: 16px;
+  border: none;
+  width: 200px;
+  height: 48px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50px;
+  color: #ffffff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }

@@ -1,5 +1,6 @@
 /* Chat or footer */
 @import 'variables.scss';
+@import 'mixins';
 
 #chat {
   width: 1280px;
@@ -50,6 +51,7 @@
   box-sizing: border-box;
   border-radius: 16px;
   background-color: $brand-color;
+  @include buttons;
 }
 
 #answersBtnText {
@@ -75,4 +77,5 @@
   height: 490px;
   left: 624px;
   top: 0px;
+  @include images;
 }

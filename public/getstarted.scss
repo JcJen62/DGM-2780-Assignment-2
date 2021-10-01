@@ -1,5 +1,6 @@
 /* Hero 2 or get started */
 @import 'variables.scss';
+@import 'mixins';
 
 #getStarted {
     width: 1175px;
@@ -14,6 +15,7 @@
     height: 464px;
     left: 0px;
     top: 1694px;
+    @include images;
   }
   
   #headInsight {
@@ -54,6 +56,7 @@
     background-color: #ffffff;
     box-sizing: border-box;
     border-radius: 16px;
+    @include buttons;
   }
   
   #startBtnText {
